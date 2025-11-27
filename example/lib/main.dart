@@ -1,5 +1,6 @@
 // import 'package:flutter_animated_toast/flutter_animated_toast.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animated_toast/flutter_animated_toast.dart';
 
 void main() {
   runApp(const ExampleApp());
@@ -15,10 +16,12 @@ class ExampleApp extends StatelessWidget {
         appBar: AppBar(title: const Text("Animated Toast Example")),
         body: Center(
           child: ElevatedButton(
-            onPressed: () =>{
-              
-            }, 
-            // showAnimatedToast(context, 'Hello from package!', duration: const Duration(seconds: 5)),
+            onPressed: () {
+              FlutterAnimatedToast.show(
+                context,
+                message: 'Hello from flutter animated toast!',
+              );
+            },
             child: const Text("Show Toast"),
           ),
         ),
