@@ -4,8 +4,8 @@ import 'toast_widget.dart';
 class FlutterAnimatedToast {
   static void show(
     BuildContext context, {
-    // Default duration is 2 seconds you can override it
     required String message,
+    // Default duration is 2 seconds you can override it
     Duration duration = const Duration(seconds: 2),
   }) {
     final overlay = Overlay.of(context);

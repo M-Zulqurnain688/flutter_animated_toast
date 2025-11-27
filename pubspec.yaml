@@ -3,7 +3,6 @@ description: "A lightweight animated toast widget for Flutter using OverlayEntry
 version: 0.0.2
 homepage: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
 repository: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
-issue_tracker: https://github.com/M-Zulqurnain688/flutter_animated_toast.git/issues
 
 environment:
   sdk: ^3.9.2
@@ -22,12 +21,10 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter: {}
-
+flutter: 
   # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/demo.gif
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/to/asset-from-package

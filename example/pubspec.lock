@@ -65,10 +65,11 @@ packages:
   flutter_animated_toast:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.2"
+      name: flutter_animated_toast
+      sha256: "0b65836ee8919b0bdabf42ea981adcc9b48849c544bc1c3fb1e2f7bd2a71089d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   flutter_lints:
     dependency: "direct dev"
     description:
