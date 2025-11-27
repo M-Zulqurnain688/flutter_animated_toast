@@ -1,16 +1,14 @@
-# example
+# Example: Flutter Animated Toast
 
-A new Flutter project.
+This is a simple example demonstrating how to use the `flutter_animated_toast` package to show animated toast messages in a Flutter app.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Make sure you have the package added in your `pubspec.yaml` (if testing locally, use a path dependency):
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animated_toast:
+    path: ../   # points to the package directory

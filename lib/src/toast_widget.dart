@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 /// Very small toast widget. Call from an OverlayEntry.
-class FlutterAnimatedToast extends StatefulWidget {
+class FAnimatedToast extends StatefulWidget {
   final String message;
   final Duration duration;
   final Curve curve;
 
-  const FlutterAnimatedToast({
+  const FAnimatedToast({
     super.key,
     required this.message,
     this.duration = const Duration(seconds: 2),
@@ -14,10 +14,10 @@ class FlutterAnimatedToast extends StatefulWidget {
   });
 
   @override
-  State<FlutterAnimatedToast> createState() => _FlutterAnimatedToastState();
+  State<FAnimatedToast> createState() => _FAnimatedToastState();
 }
 
-class _FlutterAnimatedToastState extends State<FlutterAnimatedToast> with SingleTickerProviderStateMixin {
+class _FAnimatedToastState extends State<FAnimatedToast> with SingleTickerProviderStateMixin {
   late final AnimationController _ctrl = AnimationController(vsync: this, duration: const Duration(milliseconds: 350));
   late final Animation<Offset> _offset = Tween(begin: const Offset(0, 0.6), end: Offset.zero).animate(CurvedAnimation(parent: _ctrl, curve: widget.curve));
 

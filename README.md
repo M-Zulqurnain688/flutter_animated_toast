@@ -12,7 +12,8 @@ A Flutter package to display animated toast messages.
 ## Usage
 
 ```dart
-AnimatedToast.show(
+FlutterAnimatedToast.show(
   context,
   message: "Hello!",
+  duration: const Duration(seconds: 2) //default, you can override it
 );

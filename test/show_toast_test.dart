@@ -11,7 +11,7 @@ void main() {
             builder: (context) {
               return ElevatedButton(
                 onPressed: () {
-                  showAnimatedToast(context, "Test");
+                  FlutterAnimatedToast.show(context, message: "Test");
                 },
                 child: const Text("Show"),
               );
