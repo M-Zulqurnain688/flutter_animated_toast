@@ -5,7 +5,6 @@ A Flutter package to display animated toast messages.
 ![Demo](assets/demo.gif)
 
 ## Features
-- Beautiful animated toast
 - Easy to use
 - Lightweight & customizable
 - Optional duration parameter
