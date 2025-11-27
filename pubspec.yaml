@@ -1,6 +1,6 @@
 name: flutter_animated_toast
 description: "A lightweight animated toast widget for Flutter using OverlayEntry with smooth slide animations."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
 repository: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
 issue_tracker: https://github.com/M-Zulqurnain688/flutter_animated_toast.git/issues

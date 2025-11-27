@@ -44,7 +44,6 @@ class _FAnimatedToastState extends State<FAnimatedToast> with SingleTickerProvid
     return SlideTransition(
       position: _offset,
       child: Material(
-        // color: Colors.black.withOpacity(0.8),
         color: Colors.black.withValues(alpha: 0.8),
         borderRadius: BorderRadius.circular(8),
         child: Padding(
