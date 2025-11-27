@@ -15,7 +15,9 @@ class ExampleApp extends StatelessWidget {
         appBar: AppBar(title: const Text("Animated Toast Example")),
         body: Center(
           child: ElevatedButton(
-            onPressed: () =>{}, 
+            onPressed: () =>{
+              
+            }, 
             // showAnimatedToast(context, 'Hello from package!', duration: const Duration(seconds: 5)),
             child: const Text("Show Toast"),
           ),

@@ -15,7 +15,7 @@ void showAnimatedToast(
       left: 24,
       right: 24,
       child: Center(
-        child: AnimatedToast(
+        child: FlutterAnimatedToast(
           message: message,
           duration: duration,
         ),

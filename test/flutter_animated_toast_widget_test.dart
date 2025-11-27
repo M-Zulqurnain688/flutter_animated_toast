@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(
       const MaterialApp(
         home: Scaffold(
-          body: AnimatedToast(message: 'Hello'),
+          body: FlutterAnimatedToast(message: 'Hello'),
         ),
       ),
     );
