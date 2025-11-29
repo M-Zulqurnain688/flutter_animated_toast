@@ -1,6 +1,6 @@
 name: flutter_animated_toast
-description: "A lightweight animated toast widget for Flutter using OverlayEntry with smooth slide animations."
-version: 0.0.3
+description: "A customizable Flutter toast package featuring clean animations, flexible styling, and easy usage for modern apps."
+version: 0.0.4
 homepage: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
 repository: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
 
@@ -25,6 +25,10 @@ flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
     - assets/demo.gif
+    - assets/top_toast_demo.gif
+    - assets/center_toast_demo.gif
+    - assets/bottom_toast_demo.gif
+    - assets/banner.png
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/to/asset-from-package
