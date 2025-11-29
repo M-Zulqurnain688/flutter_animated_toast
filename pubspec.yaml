@@ -1,8 +1,8 @@
 name: flutter_animated_toast
 description: "A customizable Flutter toast package featuring clean animations, flexible styling, and easy usage for modern apps."
 version: 0.0.4
-homepage: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
-repository: https://github.com/M-Zulqurnain688/flutter_animated_toast.git
+homepage: https://github.com/M-Zulqurnain688/flutter_animated_toast
+repository: https://github.com/M-Zulqurnain688/flutter_animated_toast
 
 environment:
   sdk: ^3.9.2
